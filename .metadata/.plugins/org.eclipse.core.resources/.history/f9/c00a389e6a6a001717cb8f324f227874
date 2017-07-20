@@ -1,0 +1,9 @@
+package com.arrays;
+
+public class TestArray1 {
+public static void main(String args[]) {
+	int[] a = new int[10];
+	int[] b = new int[100];
+	a=b;
+}
+}

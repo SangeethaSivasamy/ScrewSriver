@@ -1,0 +1,29 @@
+package com.practiceprograms;
+
+public class FactorialFinder {
+	private int factorialValue=1;
+public static void main(String args[]) {
+	int n = 7;
+	
+	FactorialFinder factorialFinder = new FactorialFinder();
+	System.out.println(factorialFinder.computeFactorialUsingRecursion(n));
+}
+
+public int computeFactorialUsingRecursion(int n) {
+	if(n>1) {
+	factorialValue = n*computeFactorialUsingRecursion(n-1);
+	return factorialValue;
+	} else {
+		return 1;
+	}
+	//if(n<=1) 
+		//return 1;
+	/*else {
+	factorialValue = n*computeFactorial(n-1);
+	return factorialValue;
+	}*/
+	//else
+		return n*computeFactorial(n-1);
+	
+}
+}

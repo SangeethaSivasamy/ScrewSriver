@@ -1,0 +1,10 @@
+package com.practiceprograms;
+
+public class PalindromeFinder {
+public static void main(String args[]) {
+	
+	
+	System.
+	isPalindrome(str);
+}
+}

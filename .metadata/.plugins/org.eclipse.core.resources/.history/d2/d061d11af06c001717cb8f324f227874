@@ -1,0 +1,8 @@
+package com.practiceprograms;
+
+public class AnagramsCheck {
+public static void main(String args[]) {
+	isAnagram("sangee","sankar");
+	isAnagram("sangee","eegnsa");
+}
+}

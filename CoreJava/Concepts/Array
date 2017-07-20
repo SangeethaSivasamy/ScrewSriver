@@ -1,0 +1,9 @@
+The Arrays.equals(array1, array2) :
+
+check if both arrays contain the same number of elements, and all corresponding pairs of elements in the two arrays are equal.
+
+The array1.equals(array2) :
+
+compare the object to another object and return true only if the reference of the two object are equal as in the Object.equals()
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

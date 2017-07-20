@@ -1,0 +1,16 @@
+package com.practiceprograms;
+
+public class FactorialFinder {
+	private int factorialValue;
+public static void main(String args[]) {
+	int n = 7;
+	
+	FactorialFinder factorialFinder = new FactorialFinder();
+	System.out.println(factorialFinder.computeFactorial(n));
+}
+
+public int computeFactorial(int n) {
+	factorialValue = n*computeFactorial(n-1);
+	return factorialValue;
+}
+}

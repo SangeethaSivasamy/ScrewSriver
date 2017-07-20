@@ -1,0 +1,19 @@
+package com.practiceprograms;
+
+public class FactorialFinder {
+	private int factorialValue;
+public static void main(String args[]) {
+	int n = 7;
+	
+	FactorialFinder factorialFinder = new FactorialFinder();
+	System.out.println(factorialFinder.computeFactorial(n));
+}
+
+public int computeFactorial(int n) {
+	System.out.println("n-->"+n);
+	if(n>0) {
+	factorialValue = factorialValue*n*computeFactorial(n-1);
+	}
+	return factorialValue;
+}
+}

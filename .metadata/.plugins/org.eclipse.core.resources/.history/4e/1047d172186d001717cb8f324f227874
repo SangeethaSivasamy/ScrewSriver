@@ -1,0 +1,28 @@
+package com.practiceprograms;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Hashtable;
+
+public class CheckDuplicateCharsInString {
+public static void main(String args[]) {
+	HashMap<String, Integer> hashMap = new HashMap<>();
+	String str = "hippopotamus";
+	str = str.toLowerCase();
+	System.out.println(str);
+	//ArrayList<Character>  arrList = new ArrayList<>();
+	for(int i =0;i<str.length();i++) {
+		int count = 0;
+		String s = String.valueOf(str.charAt(i));
+		//System.out.println(s);
+		if(!hashMap.containsKey(s)) {
+			count = 1;
+			hashMap.put(s,count);
+		} else {
+			count = hashMap.get(s);
+			hashMap.put(s, count+1);
+		}
+	}
+	
+
+}

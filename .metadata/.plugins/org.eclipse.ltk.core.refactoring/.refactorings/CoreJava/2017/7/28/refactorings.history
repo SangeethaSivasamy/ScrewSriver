@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.compareinterfaces&apos; to &apos;com.comparable&apos;&#x0A;- Original project: &apos;CoreJava&apos;&#x0A;- Original element: &apos;CoreJava/src/com.compareinterfaces&apos;&#x0A;- Renamed element: &apos;CoreJava/src/com.comparable&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.compareinterfaces&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.compareinterfaces" name="com.comparable" qualified="false" references="true" stamp="1499993324672" textual="false" version="1.0"/>
+</session>

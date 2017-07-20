@@ -1,0 +1,79 @@
+package com.practiceprograms;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+public class PairAnagrams {/*
+	
+	public static Map<Integer, ArrayList<String>> superSet = new HashMap<Integer, ArrayList<String>>();
+	
+	public static void pairAnagrams(String[] arr) {
+		for (String s: arr) {
+			System.out.println(s);
+			System.out.println(s.hashCode());
+			
+			int hash = computeHash(s);
+			System.out.println(hash);
+			if (superSet.get(hash) == null) {
+				superSet.put(hash, new ArrayList<String>());
+			}
+			superSet.get(hash).add(s);
+		}
+	}
+	
+	public static int computeHash(String s) {
+		int res = 0;
+		for(int i = 0; i < s.length(); i++) {
+			res += s.charAt(i) * 10;
+		}
+		return res;
+	}
+	
+	public static void main(String[] args) {
+		String[] arr = {"trees", "bike", "cars", "steer", "arcs","cbps"};
+		pairAnagrams(arr);
+		for (ArrayList<String> a: superSet.values()) {
+			System.out.println(a);
+		}
+	}
+*/
+	public static void main(String args[]) {
+		HashMap<String,ArrayList<String>> matchMap = new HashMap<>();
+
+		for (String word : args) {
+
+		    String key = anagramKey(word);
+
+		    if (!matchMap.containsKey(key)) {
+
+		        matchMap.put(key, new ArrayList<String>());
+
+		    }
+
+		    matchMap.get(key).add(word);
+
+		}
+
+		System.out.println(matchMap);
+	}
+	
+	
+	
+	
+	private static final String anagramKey(String word) {
+
+	    word = word.toLowerCase();
+
+	    char[] chars = word.toCharArray();
+
+	    Arrays.sort(chars);
+
+	    return new String(chars);
+
+	}
+
+	
+	}
+

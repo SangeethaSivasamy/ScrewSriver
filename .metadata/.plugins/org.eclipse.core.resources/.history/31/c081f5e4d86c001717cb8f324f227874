@@ -1,0 +1,21 @@
+package com.practiceprograms;
+
+public class PalindromeFinder {
+public static void main(String args[]) {
+System.out.println("NOON is palindrome?"+isPalindrome("NOON"));
+System.out.println("DOG is palindrome?"+isPalindrome("DOG"));
+System.out.println("NOON is palindrome?"+isPalindrome("LEvel"));
+System.out.println("NOON is palindrome?"+isPalindrome("NOON"));
+}
+
+public static  boolean isPalindrome(String str) {
+	boolean isPalindrome = true;
+	for(int i=str.length()-1;i>=0;i--) {
+		String reversestr = "";
+		reversestr=reversestr+str.charAt(i);
+		System.out.println(reversestr);
+		if(!str.equalsIgnoreCase(reversestr)) isPalindrome=false;
+	}
+	return isPalindrome;
+}
+}

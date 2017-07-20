@@ -1,0 +1,41 @@
+package com.practiceprograms;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Hashtable;
+
+public class CheckDuplicateCharsInString {
+public static void main(String args[]) {
+	Hashtable<String, String> hashtable = new Hashtable<>();
+	hashtable.put("name", "Sangeetha");
+	hashtable.put("name1", "Sangeetha");
+	hashtable.put("name", "Ajay");
+	hashtable.put(null, "");
+	hashtable.put(null, "N");
+	hashtable.put("", "M");
+	System.out.println(hashtable);
+	
+	HashMap<String, String> hashMap = new HashMap<>();
+	hashMap.put("name", "Sangeetha");
+	hashMap.put("name1", "Sangeetha");
+	hashMap.put("name", "Ajay");
+	hashMap.put(null, "");
+	hashMap.put(null, "N");
+	hashMap.put("", "M");
+	System.out.println(hashMap);
+	
+	String str = "sangee";
+	str = str.toLowerCase();
+	ArrayList<Character>  arrList = new ArrayList<>();
+	for(int i =0;i<str.length();i++) {
+		char s = str.charAt(i);
+		System.out.println(s);
+		if(!arrList.contains(s)) {
+			arrList.add(s);
+		} else {
+			System.out.println(s+" is duplicated");
+		}
+		
+	}
+}
+}
