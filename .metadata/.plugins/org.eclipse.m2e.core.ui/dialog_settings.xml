@@ -63,14 +63,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.nosql.mongodb"/>
+			<item value="com.jsonlearn.json"/>
 			<item value="com.javalearn.maven"/>
 			<item value="com.school.TestMaven"/>
 		</list>
 		<list key="groupId">
+			<item value="com.nosql"/>
+			<item value="com.jsonlearn"/>
 			<item value="com.javalearn"/>
 			<item value="com.school"/>
 		</list>
 		<list key="artifactId">
+			<item value="mongodb"/>
+			<item value="json"/>
 			<item value="maven"/>
 			<item value="TestMaven"/>
 		</list>

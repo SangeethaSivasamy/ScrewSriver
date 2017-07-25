@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="nsaeg" key="selection"/>
+		<item value="dbSession" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="true" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="dbSession"/>
 			<item value="nsaeg"/>
 			<item value="gsnea"/>
 			<item value="StudentEnrollmentServlet"/>

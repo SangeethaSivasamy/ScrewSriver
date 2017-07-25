@@ -1,0 +1,10 @@
+{
+  "name" : "Sangeetha",
+  "rollNo" : 1234,
+  "age" : "21",
+  "subjects" : [ "English", "ComputerScience" ],
+  "location" : {
+    "buildingno" : "655",
+    "city" : "Sunnyvale"
+  }
+}

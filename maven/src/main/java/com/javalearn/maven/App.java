@@ -1,6 +1,5 @@
 package com.javalearn.maven;
 
-import com.google.gson.Gson;
 
 /**
  * Hello world!

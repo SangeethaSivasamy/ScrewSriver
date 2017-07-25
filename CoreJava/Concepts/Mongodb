@@ -1,0 +1,22 @@
+Nosql:
+	 - Not Only SQL
+	- NoSQL is a non-relational database management system
+	- very large scale of data storing needs (for example Google or Facebook which collects terabits of data every day for their users)
+	- No predefined schema 
+	- high performance, high availability and scalability
+	
+
+Mongodb
+-MongoDB is a document database.
+- MongoDB is schema less.flexible
+- There are no  joins in MongoDB.
+-Each database contains collections which in turn contains documents.
+-MongoDB allows you to represent hierarchical relationships, to store arrays, and other more complex structures
+-all records are not restricted by the same column names and types defined across the entire table
+- the documents are stored in a binary JSON (BSON) format
+- MongoDB enables horizontal scalability by using a technique called sharding. 
+Sharding distributes the data across physical partitions to overcome the hardware limitations. The data is automatically balanced in the clusters.
+- It supports replica sets; in other words, a failover mechanism is automatically handled. 
+If the primary server goes down, the secondary server becomes the primary automatically, without any human intervention.
+- no support for transactions - certain atomic operations are supported, at a single document level
+

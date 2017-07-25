@@ -1,0 +1,28 @@
+JSON - JavaScript Object Notation
+lightweight
+text-based
+human-readable data interchange.
+Datatypes accepted -Number
+								 -String
+								 -boolean
+								 -array
+								 -object
+								 -value
+								 -whitespace
+								 -null
+
+JSON libraries to process JSONObjects:
+ 1. JSON.simple
+ 
+ 
+ 1.JSON.simple
+ 	-JSONObject
+ 	-JSONArray
+ 	-JSONParser
+ 	
+ 	
+ 3. Jackson
+ 	ObjectMapper - writeValue
+ 						   - readValue
+ 	
+ 	
